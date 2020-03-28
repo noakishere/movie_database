@@ -1,0 +1,77 @@
+body{
+  background: #eee;
+  font-family: 'Inter', sans-serif;
+}
+
+.input {
+  animation: fadein 2s;
+  border: 1px solid black;
+  background: rgb(240, 250, 240);
+  padding: 10px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+button{
+  background: #eee;
+  border: none;
+  color: green;
+}
+
+button:hover{
+  background: black;
+  color: white;
+}
+
+.title {
+  border-bottom: 1px solid darkgray;
+  margin-bottom: 5px;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+#output {
+  animation: fadein 1s;
+  display:none;
+  border: 1px solid black;
+  background: rgb(240, 240, 255);
+  padding: 10px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+#posterIcon {
+  border-radius: 25px;
+}
+
+#posterIcon:hover{
+  opacity: 85%;
+}
+
+#resultPoster {
+  text-align: center;
+}
+
+#resultTitle {
+  font-weight: bold;
+  text-align: center;
+}
+
+td {
+  vertical-align: top;
+  padding: 2px;
+}
+
+img {
+  border: 1px solid black;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
